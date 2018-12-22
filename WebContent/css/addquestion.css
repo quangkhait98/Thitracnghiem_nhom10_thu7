@@ -1,0 +1,60 @@
+
+select
+{
+	width: 90%;
+}
+.col-50 
+		{
+    		float: left;
+    		width: 50%;
+    		margin-top: 6px;
+		}
+.row.main.col-sm-12
+{
+	margin-left: 0px;
+	margin-right: 0px;
+}
+label
+{
+	margin-top: 5px;
+	font-weight: bold;
+}	
+#question
+{
+	size: 100%;
+}
+{
+	width: 100%;
+}
+.col-100
+{
+	float: left;
+    width: 100%;
+}
+#add
+{
+	margin-top: 10px;
+	width: 80px;
+}
+input[type=file]
+{
+	padding: 5px;
+}
+.col-30
+{
+	float: left;
+    width: 30%;
+}
+.form-control
+{
+	width: 100%
+}
+select.form-control
+{
+	width: 90%;
+}
+.addfile-mode
+{
+	text-align: center;
+	margin-left: 20px;
+}

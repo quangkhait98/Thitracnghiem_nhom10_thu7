@@ -1,0 +1,143 @@
+.container-main {
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+
+.container {
+	overflow-y: scroll;
+	
+}
+
+.online-test {
+	margin-left: 30px;
+	float: left;
+	width: calc(100% - 180px)
+}
+
+.questions {
+	list-style-type: none;
+	padding: 0;
+	float: left;
+	width: 100%;
+}
+
+.question {
+	margin: 10px;
+}
+
+.questionLabel {
+	word-break: break-word;
+	background: #fbe4c3;
+	padding: 10px 15px;
+	font-weight: 700;
+	font-size: 16px;
+	display: block;
+	clear: both;
+}
+
+.answerSet {
+	padding-left: 30px;
+	display: grid;
+}
+
+.answerSet span {
+	word-break: break-word;
+    float: left;
+    min-width: 175px;
+    max-width: 100%;
+    padding: 10px 0;
+}
+
+.submit {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.indexer {
+	background-color: aliceblue;
+	width: 150px;
+	margin-top: 30px;
+	display: inline-grid;
+	border-radius: 10px;
+}
+
+#clock {
+	margin: auto;
+	margin-bottom: 10px;
+	display: inline-flex;
+}
+
+.question-index {
+	list-style: none;
+	width: 70%;
+	margin: auto;
+}
+
+.question-index>.question-num {
+	width: 14px;
+	text-align: center;
+}
+
+.exam-list {
+	width: 80%;
+	margin: auto;
+	margin-top: 40px;
+	display: inline;
+}
+
+.exams {
+	width: auto;
+	margin: 0 20px;
+}
+
+@media all and (-ms-high-contrast: none) , ( -ms-high-contrast : active)
+	{
+	.indexer {
+		display: -ms-inline-grid;
+	}
+	#clock {
+		text-align: center;
+	}
+	.question-index {
+		list-style: none;
+		width: 70%;
+		margin: auto;
+		margin-top: 40px;
+	}
+}
+.hidden{
+	display: none
+}
+.edit{
+	padding: 0;
+	background: #fbe4c3;
+}
+.edit > i{
+	font-size: 25px;
+}
+.choice{
+	word-break: break-word;
+}
+.socaudung {
+    text-align: center;
+}
+
+
+.diem {
+    text-align: center;
+}
+
+.thoigianlambai {
+    text-align: center;
+}
+
+.thoigiannop {
+    text-align: center;
+}
+.body-function
+{
+	margin-top: 40%;
+	border-radius: 15px;
+	padding: 20px;
+	background-color: powderblue;
+}
